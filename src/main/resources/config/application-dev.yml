@@ -32,9 +32,9 @@ spring:
       indent-output: true
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:mysql://localhost:3306/form_book?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC&createDatabaseIfNotExist=true
-    username: root
-    password: Farhaa@8100
+    url: jdbc:mysql://internal-databases.cwq4vr0vajz0.ap-south-1.rds.amazonaws.com:3306/iviewformbook?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC&createDatabaseIfNotExist=true
+    username: formbook_dev
+    password: formbook_dev
     hikari:
       poolName: Hikari
       auto-commit: false
